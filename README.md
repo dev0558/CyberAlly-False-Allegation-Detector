@@ -1,3 +1,67 @@
+# CyberAlly - False Allegation Detection Tool
+
+**CyberAlly** is a Python-based tool designed to help identify and log false online allegations targeting individuals, especially false accusations of serious nature like pedophilia or creep behavior. It uses keyword detection and sentiment analysis to highlight harmful posts and generate reports.
+
+## Features
+- Scan posts for harmful false allegations targeting a specific person.
+- Perform basic sentiment analysis to assess the tone of posts.
+- Log detected harmful posts with details.
+- Generate PDF reports summarizing the incidents.
+- Simple and intuitive GUI built with Tkinter.
+- Includes cyber safety and mental health resource links.
+
+## Installation
+
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/yourusername/CyberAlly-False-Allegation-Detector.git
+   cd CyberAlly-False-Allegation-Detector
+Install dependencies:
+
+pip install -r requirements.txt
+python -m textblob.download_corpora
+
+Run the app:
+
+    python cyberally_main.py
+
+Usage
+
+    Edit data/fake_posts.txt to include posts you want to analyze.
+
+    Use the GUI buttons to analyze posts, generate reports, or get help info.
+
+    Reports are saved in the reports/ folder as PDFs.
+
+Technologies
+
+    Python 3.x
+
+    Tkinter for GUI
+
+    TextBlob for sentiment analysis
+
+    FPDF for PDF report generation
+
+Contribution
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+License
+
+MIT License
+Disclaimer
+
+This tool is meant for ethical use only. It is not intended to replace legal advice or official investigations.
+
+
+
+
+
+
+
+
+
+
 ## Installation & Usage
 
 **Prerequisites:**  
